@@ -3,7 +3,7 @@ import { CreateTaskDto } from './dto/create-task.dto';
 import { GetTasksFilterDto } from './dto/get-tasks.dto';
 import { UpdateTaskStatusDto } from './dto/update-task-status.dto';
 import { Task } from './task.entity';
-import { TaskStatus } from './task.model';
+import { TaskStatus } from './task-status.enum';
 import { TasksService } from './tasks.service';
 
 @Controller('tasks')
